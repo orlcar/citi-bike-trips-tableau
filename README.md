@@ -32,6 +32,7 @@ https://public.tableau.com/profile/orlando8029#!/vizhome/CitiBikeTrips-Year/Star
 ![End Station Paths](images/end_station_paths.png)
 
 * Bike ridership by men are much higher than bike ridership by women in 2018.
+
 ![Total Bike Ridership Gender](images/total_bike_ridership_gender.png)
 
 * Bike ridership by men increases during the summer months much more significantly than bike ridership by women.
