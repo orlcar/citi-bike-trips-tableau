@@ -5,24 +5,53 @@ merge the twelve datasets for 2018.
 https://www.citibikenyc.com/system-data
 
 
-## Tableau Link
+## Citi Bike Trip Tableau Link
 https://public.tableau.com/profile/orlando8029#!/vizhome/CitiBikeTrips-Year/StartStationMap
+
 
 ## Findings
 
+* The total number of Citi Bike trips in 2018 for Jersey City is 353,892.
+
 * The most popular start station is Grove St Path and the least popular start station is Columbia Park.
+![Top 10 Bottom 10 Start Stations](images/start_station_top_bottom_10.png)
+
 * The popular start stations are close to the river.  Sip Avenue is an exception.  The least popular start stations are far from the river.
+![Start Station Map](images/start_station_map.png)
+
 * Bikers travel primarily close to the popular start stations, but they also travel to NY and spots far from the popular start station.
+![Start Station Paths](images/start_station_paths.png)
+
 * Grove St PATH is also the most popular end station.  6 Ave & Canal St is the least popular end station.
+![Top 10 Bottom 10 End Stations](images/end_station_top_bottom_10.png)
+
 * Popular end stations are around Grove St Path and close to the river.  The least popular end stations are far from Grove St Path or in New York.
+![End Station Map](images/end_station_map.png)
+
 * Bikers end their bike trips primarily near the river in Jersey City.
+![End Station Paths](images/end_station_paths.png)
 
 * Bike ridership by men are much higher than bike ridership by women in 2018.
+![Total Bike Ridership Gender](images/total_bike_ridership_gender.png)
+
 * Bike ridership by men increases during the summer months much more significantly than bike ridership by women.
+![Bike Ridership Gender Months](images/bike_ridership_gender_months.png)
+
 * The number of subscriber bikers increases much more significantly during the summer months than the number of customer bikers.
-* Bike trips during the summer happen mainly at 8 AM and 5 PM.  The trend for bike trips during particular hours is similar during the winter months.
-* Adolescents have the highest average trip duration, but bikers aged 50, 72, and 80 also have significantly high average trip durations.
+![Subscriber Customer Bikers](images/subscriber_customer_bikers.png)
+
+* Bike trips during the summer happen mainly at 8 AM and 5 PM.
+![Summer Trips](images/summer_trips.png)
+
+* The trend for bike trips during particular hours is similar during the winter months.
+![Winter Trips](images/winter_trips.png)
+
+* Adolescents have the highest average trip duration in minutes, but bikers aged 50, 72, and 80 also have significantly high average trip durations.
+![Average Trip Duration Young Age](images/avg_trip_duration_young_age.png)
+![Average Trip Duration Old Age](images/avg_trip_duration_old_age.png)
+
 * The most used bikes are bikes with ID 26000-27000, 29000-29700, 31151, and 33500-33600. These bikes likely need to be repaired or replaced. Bikes with ID below 25000 and above 34000 were rarely used.
+![Bike Usage](images/bike_usage.png)
 
 
 ## Jupyter Notebook: Dask Dataset Merge Code
